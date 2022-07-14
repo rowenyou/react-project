@@ -24,6 +24,12 @@ function App() {
         </h3>
         <p>{date}</p>
       </div>
+      <div className="list">
+        <h3>
+          {글제목[1]} <span>?</span> {따봉갯수}{" "}
+        </h3>
+        <p>{date}</p>
+      </div>
     </div>
   );
 }
