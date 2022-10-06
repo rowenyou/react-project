@@ -1,16 +1,25 @@
 .black-nav {
-  background: black;
-  width: 100%;
-  display: flex;
-  color: white;
-  padding: 20px;
-  font-weight: 600;
-  font-size: 20px;
+    background: black;
+    width: 100%;
+    display: flex;
+    color: white;
+    padding: 20px;
+    font-weight: 600;
+    font-size: 20px;
 }
 .list {
-  margin-top: 30px;
-  text-align: left;
-  padding-left: 20px;
-  padding-right: 20px;
-  border-bottom: 1px solid #ddd;
+    margin-top: 30px;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-bottom: 1px solid #ddd;
+}
+.App {
+    display: block;
+}
+nav > ul {
+    padding: 0;
+}
+nav > ul > li {
+    list-style: none;
 }
